@@ -1,0 +1,23 @@
+.main{ 	margin:auto; overflow:hidden; background-color:#FFF;}
+.main img{ width:100%; display:inline;}
+h1{ padding:10px; line-height:30px; text-align:center; font-size:20px;}
+.time{ font-size:12px; color:#607fa6; padding:5px 10px;}
+.h_bj{ background-color:#FF0;}
+.red_zi{ color:#F00;}
+.main_s{ padding:5px 15px; margin:auto; overflow:hidden; background-color:#FFF; text-indent:28px; line-height:30px;}
+.main img.b{ width:auto; height:auto;}
+img.b{ width:auto;}
+.t{ color:#999;}
+.con{ line-height:25px;}
+.con span{ height:auto; overflow:hidden;}
+.tiao{ border-bottom:1px solid #cccccc; margin-bottom:5px; margin-top:5px;}
+img.tou{ width:40px; margin-top: 5px;}
+.bj{ background-color:#FFF; height:7px; overflow:hidden; margin-bottom:10px; margin-top:10px;}
+strong{ color:#F00;}
+.ts { position:fixed; right:0px; top:0px; width:350px; height:30px; border:1px solid #09F; font-size: 16px; text-align: center; background-color:#09F; line-height: 26px; color: #fff; font-weight:bold; border-radius:999px;}
+.yc { position:fixed; right:0px; top:32px; background-color:#06F; width:48px; height:21px; font-size:12px; text-align:center; border-radius:999px; line-height: 18px;}
+.size{ font-size:16px;}
+.zi { color:#60F;}
+.lan{ color:#03C;}
+.jianju{ padding-top:10px;}
+#content .img{width:100%;}

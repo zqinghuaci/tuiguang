@@ -1,0 +1,95 @@
+html,body,div,h1,h2,h3,h4,h5,h6,ul,ol,li,p,input,button{box-sizing: border-box;padding: 0;margin: 0;}
+html{font-size:20px;}
+html,body{max-width:740px;margin:0 auto;}
+body{padding:0.7rem;color: #333}
+ul,li{list-style:none;}
+a{text-decoration: none;color: #333;outline: none;}
+.contentBox>img{
+	max-width: 100%;
+	display:block;
+	margin:0 auto;
+}
+.titleBox{
+	width:100%;
+	margin:0.6rem auto;
+	padding:1px;
+	border:1px solid red;
+}
+h3{
+	width:100%;
+	text-align: center;
+	line-height: 1.5;
+	color:#ff0;
+	background-color:#c00;
+}
+.addWx{
+	max-width:740px;
+	position:fixed;
+	bottom:0;
+	left:0;
+	right: 0;
+	margin:0 auto;
+	padding:6px 0;
+	font-size:1.1rem;
+	color:#fff;
+	background-color:#667cd7;
+    text-align: center;
+    line-height: 1.5;
+}
+.wxNum{
+	color:#f00;
+	background:#ff0;
+}
+.wxBtn{
+	position:absolute;
+	display:block;
+	right:10px;
+	top:0.6rem;
+	padding:10px;
+	border-radius:10px;
+	background-color:#3eb936;
+	color:#fff;
+}
+.wrapBox{
+	width:100%;
+	position:relative;
+}
+.contentBox{
+	margin-top: 10px;
+	padding-bottom: 120px;
+}
+.contentBox>p{
+	line-height: 2;
+	text-indent: 1.9rem;
+}
+.contentBox>.highLightbox{
+	text-indent:0;
+	margin:10px 0;
+}
+.highLightcont{
+	font-weight: bold;
+	background-color: #fffb00;
+}
+.redFont{color:red;}
+@media only screen and (min-width:550px) and (max-width:740px){
+	html{font-size:18px;}
+	.contentBox>.lastPoto{width:60%;}
+}
+@media only screen and (min-width:440px) and (max-width:550px){
+	html{font-size:18px;}
+	.contentBox>.lastPoto{width:70%;}
+}
+@media only screen and (min-width:380px) and (max-width:440px){
+	html{font-size:18px;}
+	.contentBox>.lastPoto{width:80%;}
+}
+@media only screen and (min-width:320px) and (max-width:380px){
+	html{font-size:16px;}
+}
+@media only screen and (max-width:320px){
+	html{font-size:14px;}
+}
+@media only screen and (max-width:460px){
+	.addWx{text-align:left;}
+	.addWx>p{text-indent:2rem;}
+}

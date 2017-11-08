@@ -1,0 +1,10 @@
+@charset "utf-8";
+*{margin:0px;padding:0px;}
+/*top*/
+.navc{width:100%;height:40px;}
+.navc img{float:left;margin-left:5px; max-width:174px; width:30%;}
+.navc p{float:right;font-size:0.75em;color:#000;line-height:20px;}
+.scroll{text-align:center;}
+.mod_01 img{display:block;width:100%;max-width:720px;margin:auto;}
+.footer{width:100%; text-align:center;color:#CCC;font-size:1em;}
+.footer a{ color:#ccc;font-size:1em;}
